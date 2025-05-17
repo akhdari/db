@@ -290,15 +290,6 @@ CREATE TABLE `exam_student` (
 CREATE TABLE `exam_teacher` (
   `exam_id` INT NOT NULL,
   `teacher_id` INT NOT NULL,
-
-  `point_hifd` INT NOT NULL DEFAULT 0,
-  `point_tajwid_applicative` INT NOT NULL DEFAULT 0,
-  `point_tajwid_theoric` INT NOT NULL DEFAULT 0,
-  `point_performance` INT NOT NULL DEFAULT 0,
-  `point_deduction_tal9ini` INT NOT NULL DEFAULT 0,
-  `point_deduction_tanbihi` INT NOT NULL DEFAULT 0,
-  `point_deduction_tajwidi` INT NOT NULL DEFAULT 0,
-
   `date` DATE,
 
   
